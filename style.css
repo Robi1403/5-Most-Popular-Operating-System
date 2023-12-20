@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #DAD8D8 0%, #FFF 100%);
+    padding-top: 100px;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+span{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.cardView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.windows a {
+    display: flex;
+    width: 203px;
+    height: 458px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color:#01BCF3;
+    border-radius: 15px;
+}
+
+.windows a:hover{
+    box-shadow: 0px 0px 43.968px 0px #01BCF3;
+    transition: 0.3s;
+}
+
+
+.android a{
+    display: flex;
+    width: 203px;
+    height: 458px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #ACFF9E;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px 0px #5AFF9E inset;
+}
+
+.android a:hover{
+    box-shadow: 0px 0px 82.44px 0px #77F961;
+    transition: 0.3s;
+}
+
+.ios a{
+    border-radius: 15px;
+    width: 204px;
+    height: 458px;
+    background: #FFF;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ios a:hover{
+    background: rgb(241, 241, 241);
+    box-shadow: 0px 0px 82.44px 0px #9D9B9B;
+    transition: 0.3s;
+}
+
+.appleLogo{
+    height: 27px;
+    width: 27px;
+}
+
+.macOs a{
+    display: flex;
+    width: 203px;
+    height: 458px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #79DBFF;
+    box-shadow: 0px 0px 100px 0px rgba(0, 172, 236, 0.50) inset;
+}
+
+.macOs a:hover{
+    box-shadow: 0px 0px 100px 0px rgba(0, 172, 236, 0.50) inset;
+    box-shadow: 0px 0px 82.44px 0px #00BFFF;
+    transition: 0.3s;
+}
+
+.linux a{
+    display: flex;
+    width: 203px;
+    height: 458px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FB0;
+    box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.80) inset;
+}
+
+
+
+.linux a:hover{
+    box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.80) inset;
+    box-shadow: 0px 0px 82.44px 0px #FFCF4C;
+    transition: 0.3s;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer h2{
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer H3{
+    font-size: 24px;
+    font-weight: 800;
+ }
+
+ .footer H5{
+    font-size: 12px;
+    font-weight: 400;
+ }
+
+ @media (max-width: 1000px){
+    .windows a {
+        width: 143px;
+        height: 322px;
+    }
+
+    .android a{
+        width: 143px;
+        height: 322px;
+    }
+
+    .ios a{
+        width: 143px;
+        height: 322px;
+    }
+
+    .macOs a{
+        width: 143px;
+        height: 322px;
+    }
+
+    .linux a{
+        width: 143px;
+        height: 322px;
+    }
+
+
+ }
+
+ @media (max-width: 500px){
+
+    h1{
+        font-size: 40px;
+    }
+    body{
+        height: max-content;
+        padding-bottom: 30px;
+    }
+
+    .cardView{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .windows a {
+        width: 230px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .android a{
+        width: 230px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .ios a{
+        width: 230px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .macOs a{
+        width: 230px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .linux a{
+        width: 230px;
+        height: 250px;
+    }
+ }

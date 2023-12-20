@@ -1,0 +1,562 @@
+
+body{
+    background-color: #040809;
+    height: 7000px;
+    width: 90%;
+
+}
+.pic1{
+
+    margin: -100px;
+    width: 1366px;
+    height: 960px;
+    position: absolute;
+}
+.slide1{
+    position: absolute;
+    margin-left: 310px;
+}
+.slide1 h1{
+    font-family: Haettenschweiler;
+    letter-spacing: 50px;
+    color: white;
+    position: absolute;
+    font-size: 160px;
+    text-shadow: #040809;
+    margin-top: 360px;
+    margin-left: -180px;
+    font-weight: 100;
+}
+.slide1 h4{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 19px;
+    color: gray;
+    position: absolute;
+    width: 785px;
+    margin-top: 530px;
+    margin-left: -175px;
+}
+.slide1 button{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 600px;
+    margin-left: 360px;
+    border-color: #60c5c5;
+    border-radius: 5px;
+}
+.forINTRODUCTION{
+    background-color: #061E28;
+    width: 100%;
+    height: 960px;
+    position: absolute;
+    margin-top: 860px;
+    margin-left: -7px;
+    text-align: center;
+}
+.forINTRODUCTION h3{
+    font-family: Haettenschweiler;
+    margin-top: 90px;
+    margin-left: 60px;
+    color: whitesmoke;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: 100;
+}
+.p1{
+    justify-items: center;
+    position: absolute;
+    color: gray;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.p2{
+    justify-items: center;
+    position: absolute;
+    color: gray;
+    margin-top: 600px;
+    margin-left: 350px;
+    
+}
+.introcont{
+    margin-left: -20px;
+}
+.sep{
+    margin-top: 50px;
+    margin-left: -15px;
+}
+.slide2{
+    background-color: #052c3d;
+    width: 100%;
+    height: 960px;
+    position: absolute;
+    margin-top: 1820px;
+    margin-left: -7px;
+    text-align: center;      
+}
+.para1{
+    letter-spacing: 3px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: verdana;
+    font-size: 20px;
+    width: 900px;
+    color: lightgray;
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 347px;
+}
+.para2{
+    letter-spacing: 3px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: verdana;
+    font-size: 20px;
+    width: 900px;
+    color: lightgray;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 347px;
+}
+.users h1{
+    font-family: Haettenschweiler;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #60c5c5;
+    font-size: 170px;
+    margin-top: -300px;
+    margin-left: -270px;
+}
+.users h2{
+    font-family: Haettenschweiler;
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 13px;
+    color: whitesmoke;
+    margin-top: -263px;
+    margin-left: 685px;
+}
+.users h3{
+    text-align: left;
+    font-family: Haettenschweiler;
+    font-weight: 100;
+    width: 300px;
+    font-size: 30px;
+    color: rgb(177, 174, 174);
+    margin-left: 1002px;
+    margin-top: -30px;
+}
+.total{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.background h2{
+    position: absolute;
+    margin-top: 500px;
+    font-family: Haettenschweiler;
+    font-size: 40px;
+    letter-spacing: 25px;
+    font-weight: 100;
+    color: whitesmoke;
+    margin-left: 770px;
+    width: 600px;
+}
+.version {
+    position: relative;
+}
+
+.version img {
+    position: absolute;
+    width: 500px;
+    margin-left: -590px;
+    margin-top: 470px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.version img.active {
+    opacity: 1;
+}
+
+.version figcaption {
+    color: whitesmoke;
+    font-family: Haettenschweiler;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 370px;
+    font-weight: 100;
+}
+
+.allversion {
+    margin-top: -100px;
+}
+.background p{
+    text-indent: 50px;
+    text-align: justify;
+    position: absolute;
+    width: 500px;
+    font-family: verdana;
+    font-size: 20px;
+    color: lightgrey;
+    margin-left: 800px;
+    margin-top: 570px;
+}
+.backver{
+    position: absolute;
+    margin-left: 20px;
+    width: 500px;
+}
+.background button{
+    position: absolute;
+    background-color: #4473C5;
+    color: whitesmoke;
+    margin-top: 750px;
+    margin-left: 280px;
+    width: 250px;
+    height: 50px;
+    font-size: 19px;
+    font-family: verdana;
+    border-color: transparent;
+    border-radius: 5px;
+}
+.slide3{
+    background-color: #061E28;
+    width: 100%;
+    height: 1850px;
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: -7px;
+}
+.content3{
+    position: absolute;
+    margin-left: 30px;
+}
+.content3 h1{
+    color: whitesmoke;
+    font-family: Haettenschweiler;
+    position: absolute;
+    width: 1000px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 350px;
+    letter-spacing: 20px;
+    margin-top: 80px;
+}
+.content3 h3{
+    color: whitesmoke;
+    font-family: Haettenschweiler;
+    position: absolute;
+    width: 1000px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 699px;
+    letter-spacing: 20px;
+    margin-top: 130px;
+}
+.one{
+    width: 500px;
+    position: absolute;
+
+
+}
+.one p{
+    font-size: 17px;
+    color: rgb(179, 179, 179);
+    text-align: justify;
+    font-family: verdana;
+    
+}
+.one h2{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.two{
+    width: 500px;
+    position: absolute;
+    margin-left: 600px;
+
+}
+.two p{
+    font-size: 17px;
+    color: rgb(179, 179, 179);
+    text-align: justify;
+    font-family: verdana;
+    
+}
+.two h2{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.features{
+    margin-left: 250px;
+    margin-top: 170px;
+}
+.slide4{
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    background-color: #052c3d;
+    margin-top: 4350px;
+    margin-left: -7px;
+}
+.content4 h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Haettenschweiler;
+    letter-spacing: 20px;
+    margin-left: 650px;
+}
+.slide5{
+    width: 100%;
+    height: 2500px;
+    position: absolute;
+    background-color: #061E28;
+    margin-top: 5850px;
+    margin-left: -7px;
+}
+.content4 h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Haettenschweiler;
+    letter-spacing: 20px;
+    margin-left: 650px;
+}
+.content5 h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 55px;
+    font-weight: 100;
+    font-family: Haettenschweiler;
+    letter-spacing: 20px;
+    margin-left: 580px;
+    margin-bottom: 150px;
+}
+.service h1{
+    color: whitesmoke;
+    font-family: Haettenschweiler;
+    position: absolute;
+    width: 1000px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 699px;
+    letter-spacing: 20px;
+    margin-top: 800px;
+}
+.servone{
+    color: whitesmoke;
+    width: 500px;
+    text-align: justify;
+    font-family: verdana;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 870px;
+}
+.servone h2{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-align: center;
+}
+.servone p{
+    font-size: 17px;
+    color: rgb(179, 179, 179);
+    text-align: justify;
+    font-family: verdana;
+    margin-bottom: 30px;
+}
+.servtwo{
+width: 500px;
+position: absolute;
+margin-left: 850px;
+margin-top: 870px;
+
+}
+.servtwo p{
+font-size: 17px;
+color: rgb(179, 179, 179);
+text-align: justify;
+font-family: verdana;
+
+}
+.servtwo h2{
+color: whitesmoke;
+font-size: 20px;
+font-family: verdana;
+letter-spacing: 5px;
+font-weight: 100;
+text-align: center;
+}
+
+
+
+/*=============== F O R    D I S T I N C T I O N =====================*/
+
+.distone{
+    color: whitesmoke;
+    width: 500px;
+    text-align: justify;
+    font-family: verdana;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.distone p{
+    font-size: 17px;
+    color: rgb(179, 179, 179);
+    text-align: justify;
+    font-family: verdana;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.distone h2{
+    color: whitesmoke;
+font-size: 20px;
+font-family: verdana;
+letter-spacing: 5px;
+font-weight: 100;
+text-align: center;
+
+}
+.disttwo{
+    color: whitesmoke;
+    width: 500px;
+    text-align: justify;
+    font-family: verdana;
+    position: absolute;
+    margin-left: 878px;
+    margin-top: 20px;
+}
+.disttwo p{
+    font-size: 17px;
+    color: rgb(179, 179, 179);
+    text-align: justify;
+    font-family: verdana;
+    margin-bottom: 30px;
+}
+.disttwo h2{
+    color: whitesmoke;
+font-size: 20px;
+font-family: verdana;
+letter-spacing: 5px;
+font-weight: 100;
+text-align: center;
+}
+
+
+
+/*=============== F O R    C R E A T I V E  T E A M  =====================*/
+.membersname{
+    width: 500px;
+}
+.membersname h2{
+    color: white;
+    font-family: Haettenschweiler;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    display: flex;
+}
+.membersname h4{
+    margin-top: -30px;
+    margin-left: -150px;
+    text-align: center;
+    color: rgb(147, 147, 147);
+    font-family: verdana;
+}
+
+.allmem{
+    margin-left: 145px;
+}
+.membersname img{
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+    
+
+}
+
+.membersname2{
+    width: 500px;
+    position: absolute;
+    margin-top: -1009px;
+    margin-left: 500px;
+}
+.membersname2 h2{
+    color: white;
+    font-family: Haettenschweiler;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    display: flex;
+}
+.membersname2 h4{
+    margin-top: -30px;
+    margin-left: -150px;
+    text-align: center;
+    color: rgb(147, 147, 147);
+    font-family: verdana;
+    margin-bottom: 38PX;
+}
+.membersname2 img{
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+    
+
+}
+
+.membersname3{
+    width: 500px;
+    position: absolute;
+    margin-top: -1009px;
+    margin-left: 1000px;
+}
+.membersname3 h2{
+    color: white;
+    font-family: Haettenschweiler;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    display: flex;
+}
+.membersname3 h4{
+    margin-top: -30px;
+    margin-left: -150px;
+    text-align: center;
+    color: rgb(147, 147, 147);
+    font-family: verdana;
+    margin-bottom: 38PX;
+}
+.membersname3 img{
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+    
+
+}
+
+

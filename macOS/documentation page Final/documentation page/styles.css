@@ -1,0 +1,246 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: left;
+  background-image: url(pics/4403214_18410.jpg);
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+
+.navbar{
+  text-align: center;
+  margin: 30px 0px 0px 80px;
+  
+}
+.navbar a{
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  
+}
+.navbar a:hover{
+  color: rgb(129, 129, 129);
+}
+
+.logo{
+  width: 100px;
+  float: left;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+.main-section h1{
+  position: relative;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+}
+
+.mac{
+  width: 150px;
+  height:150px;
+  float: right;
+  margin-right:50px;
+  margin-left: 10px;
+  margin-top: -20px;
+
+}
+
+
+.pic{
+  width: 500px;
+  height:280px;
+  float: right;
+  border-radius: 10px;
+  margin-inline-start: 3px;
+}
+.pic2{
+  width: 200px;
+  height:150px;
+  float: right;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.pic3{
+  width: 300px;
+  height:280px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 10px;
+}
+
+
+
+.none{
+  list-style: none;
+}
+
+
+#navbar {
+  position: fixed;
+  top: 0%;
+  left: 0.2%;
+  width: 19%;
+  height: 87%;
+  margin-top: -40px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #404040;
+}
+
+#navbar ul {
+  padding: 10px 2px;
+  list-style: none;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#navbar li {
+  padding: 10px 5px;
+  border-bottom: 2px solid #d1cfcf;
+}
+#navbar li:hover{
+  background-color: #cdcdcd;
+  color:black;
+  border-radius: 2px;
+}
+
+#main-doc {
+  position: absolute;
+  left: 20.2%;
+  padding-left: 10px;
+}
+
+details {
+  cursor: pointer;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  
+  #navbar {
+    position: absolute;
+    top: 0%;
+    left: 0.2%;
+    width: 99.7%;
+    height: 40%;
+  }
+  
+  #navbar ul {
+    padding: 5px 2px;
+  }
+  
+  #main-doc {
+    position: absolute;
+    top: 58%;
+    left: 0%;
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }  
+  
+}
+
+
+/*-------------------------creative------------*?
+<span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+.wrapper{
+    background: #fff;
+    width:690px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    margin-left: 130px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+  
+}
+.img3{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: -20px;
+}
+.img4{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.img2{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: -5px;
+}
+
+.h4{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+   margin-right: 50px;
+}
+.h5{
+  font-size: 12px;
+  margin: 7px;
+ margin-left: -10px;
+}
+.p5{
+  font-size: 12px;
+}
+
+.h6{
+  font-size: 12px;
+}
+.p6{
+  margin-right: 50px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.p1{
+  margin: 2px;
+  font-size: 12px;
+}
+.p{
+  margin: 2px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: -50px;
+}
+

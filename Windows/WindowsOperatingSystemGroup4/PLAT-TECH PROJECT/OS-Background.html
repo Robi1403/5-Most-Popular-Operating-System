@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OS Background</title>
+        <style>
+            body{
+                background-color: #061e28;
+            }
+            .part1, .part3, .part5,
+            .part7, .part9, .part11, .part13, .part15
+            ,.part17{
+                height: 730px;
+                width: auto;
+            }
+            .part2, .part4, .part6, .part8, 
+            .part10, .part12, .part14, .part16{
+                height: 730px;
+                width: auto;
+                background-color: #052C3D;
+            }
+
+            .part6 #v1{
+                position: absolute;
+                top: 170px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            #v1{
+                position: absolute;
+                top: 30px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            .part4 #v1{
+                position: absolute;
+                top: 140px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            #v2{
+                height: 400px;
+                width: auto;
+                position: relative;
+                top: 150px;
+                left: 130px;
+            }
+            .box{
+                position: relative;
+                width: 600px;
+                height: 500px;
+                top: 125px;
+                left: 90px;
+                overflow: hidden;
+                display: inline-block;
+            }
+            .part1 .content{
+                position: relative;
+                display: inline-block;
+                left: 200px;
+                width: 600px;
+                top: 70px;
+            }
+            .part2 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 150px;
+            }
+            .part2 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part3 .content{
+                left: 250px;
+                width: 600px;
+                top: 150px;
+                position: relative;
+                display: inline-block;
+            }
+            .part3 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part4 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 80px;
+            }
+            .part4 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part5 .content{
+                left: 250px;
+                width: 600px;
+                top: 50px;
+                position: relative;
+                display: inline-block;
+            }
+            .part5 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part6 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 20px;
+            }
+            .part6 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part7 .content{
+                left: 250px;
+                width: 600px;
+                top: 80px;
+                position: relative;
+                display: inline-block;
+            }
+            .part7 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            #v7{
+                position: relative;
+                top: 50px;
+                display: inline-block;
+                left: 120px;
+                height: 400px;  
+            }
+            .part9 .content{
+                left: 250px;
+                width: 600px;
+                top: 80px;
+                position: relative;
+                display: inline-block;
+            }
+            .part9 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part8 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 80px;
+            }
+            .part8 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part8 .content .header img{
+                margin-top: 30px;
+            }
+            .part10 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 40px;
+            }
+            .part10 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part10 .content .header img{
+                margin-top: 15px;
+            }
+            .part12 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 40px;
+            }
+            .part12 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part12 .content .header img{
+                margin-top: 15px;
+            }
+            .part14 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 180px;
+            }
+            .part14 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part14 .content .header img{
+                margin-top: 15px;
+            }
+            .part16 .content{
+                position: relative;
+                left: 120px;
+                width: 600px;
+                top: 120px;
+            }
+            .part16 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part16 .content .header img{
+                margin-top: 15px;
+            }
+            .part11 .content{
+                left: 250px;
+                width: 600px;
+                top: 60px;
+                position: relative;
+                display: inline-block;
+            }
+            .part11 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part13 .content{
+                left: 250px;
+                width: 600px;
+                top: 90px;
+                position: relative;
+                display: inline-block;
+            }
+            .part13 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part15 .content{
+                left: 250px;
+                width: 600px;
+                top: 40px;
+                position: relative;
+                display: inline-block;
+            }
+            .part15 .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 20px;
+                font-weight: 100;
+                color: whitesmoke;
+                margin-left: 50px;
+            }
+            .part17 .content{
+                left: 430px;
+                width: 650px;
+                top: 200px;
+                position: relative;
+                
+            }
+            .part17 h2{
+                text-align: center;
+            }
+            .part17, p{
+                letter-spacing: 3px;
+                text-align: justify;
+                text-indent: 50px;
+                font-family: verdana;
+                font-size: 20px;
+                color: lightgray;
+            }
+            #openingPhoto{
+                height: 400px;
+                width: auto;
+                position: absolute;
+                top: 20px;
+                left: -70px;
+            }
+            .content h2{
+                font-family: Haettenschweiler;
+                font-size: 40px;
+                letter-spacing: 25px;
+                font-weight: 100;
+                color: whitesmoke;
+            }
+            #v8{
+                position: absolute;
+                top: 140px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            p{
+                color: rgb(192, 192, 192);
+                font-family: 'Verdana';
+                line-height: 1.5;
+                font-size: 20px;
+            }
+            .opening{
+                letter-spacing: 3px;
+                text-align: justify;
+                text-indent: 50px;
+                font-family: verdana;
+                font-size: 20px;
+                color: lightgray;
+            }
+            .part2 .opening{
+                letter-spacing: 3px;
+                text-align: justify;
+                text-indent: 50px;
+                font-family: verdana;
+                font-size: 20px;
+                color: lightgray;
+            }
+            .opening2{
+                letter-spacing: 3px;
+                text-align: justify;
+                text-indent: 50px;
+                font-family: verdana;
+                font-size: 20px;
+                color: lightgray;
+            }
+            .header{
+                display: flex;
+            }
+            .header img{
+                width: 120px;
+                height: 100%;
+                margin-top: 40px;
+            }
+            .part3 .content .header img{
+                width: 120px;
+                height: 100%;
+                margin-top: 30px;
+            }
+            #icon4{
+                margin-top: 10px;
+            }
+            #v5{
+                position: relative;
+                top: 5px;
+                display: inline-block;
+                left: 120px;
+                height: 400px;
+            }
+            #v10{
+                position: absolute;
+                top: 140px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            #v11{
+                position: relative;
+                top: -40px;
+                display: inline-block;
+                left: 120px;
+                height: 400px;
+            }
+            #v12{
+                position: absolute;
+                top: 140px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            #v13{
+                position: relative;
+                top: 0px;
+                display: inline-block;
+                left: 120px;
+                height: 300px;
+            }
+            #v14{
+                position: absolute;
+                top: 50px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            #v15{
+                position: relative;
+                top: -80px;
+                display: inline-block;
+                left: 120px;
+                height: 300px;
+            }
+            #v16{
+                position: absolute;
+                top: 140px;
+                left: 750px;
+                width: 500px;
+                height: auto;
+            }
+            button{
+                font-family: Haettenschweiler;
+                font-size: 20px;
+                letter-spacing: 5px;
+                font-weight: 200;
+                color: whitesmoke;
+                background-color: #052C3D;
+                width: 280px;
+                height: 40px;
+                border: 0.5px solid whitesmoke;
+                cursor: pointer;
+                position: relative; 
+                top: 250px;
+                left: 600px;
+                border-radius: 5px;
+            }
+            button:hover{
+                background-color: whitesmoke;
+                color: #052C3D;
+
+            }
+            img{
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="part1">
+            <div class="box">
+                <img src="windows.png" id="openingPhoto">
+            </div>
+            <div class="content">
+                <h2 style="text-align: center">WINDOWS ORIGIN</h2>
+
+                <p class="opening">The history of Windows dates back to 1981 when Microsoft started work on a program called "Interface Manager."
+                    Few years later, founder of Microsoft 'Bill Gates' announced for Microsoft Windows on the 10th of November 1983 and 
+                    released the first version of Windows in 1985. It was designed to run on top of a command-line operating system 
+                    MS-DOS.
+                </p>
+
+                <p class="opening2">Windows heavily relies on a graphical user interface (GUI), first developed by Xerox in 1975. A conventional
+                    GUI will consist primarily of the combination of “window, icon, menu and pointing device”, or WIMP.
+                </p>
+            </div>
+        </div>
+
+        <div class="part2">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version1.0.png">
+                    <h2>Windows 1.0 (1985)</h2>
+                </div>
+                <p class="opening">Windows 1 is the first Windows operating system which was released in 1985. In the development of this operating 
+                    system, Microsoft attempted to create a graphical user interface where users can click on icons and buttons
+                     on the screen instead of using command prompts.  Windows 1 was a mouse dependent OS which was not common at that time.
+                </p>
+                <img src="pics-history/Windows1.0.png" id="v1">
+             </div>
+        </div>
+
+        <div class="part3">
+            <img src="pics-history/Windows2.png" id="v2">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version2.png">
+                    <h2>Windows 2 (1987)</h2>
+                </div>
+                <p class="opening">Released in December 1987 Windows 2 introduce the feature of program overlapping, making multiple program run simultaneously and switching between the programs was easier. Features included in this version are the feature 
+                    to maximize and minimize windows, a control panel to find system settings and options, and the release of 
+                    Microsoft word and excel.
+                </p>
+             </div>
+        </div>
+
+        <div class="part4">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version3.png" id="icon4">
+                    <h2>Windows 3 (1990)</h2>
+                </div>
+                <p class="opening">The first version of Windows that became popular was Windows 3 that was released in 1990.  
+                    It came pre-installed on many PC-compatible computers. 
+                    One of the well-known features of Windows 3 is that it allows users to run multiple programs 
+                    simultaneously, which is also known as multitasking. It also supports 256 colors making a more modern and colorful looking operating system. Another feature of it was the game Solitaire, which was a big hit with users. 
+                    Windows 3 sells more than 10 million copies making it one of the best-selling GUI ever.
+                </p>
+                <img src="pics-history/Windows3.png" id="v1">
+             </div>
+        </div>
+
+        <div class="part5">
+            <img src="pics-history/Windows3.1.png" id="v5">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version3.png" id="icon4">
+                    <h2>Windows 3.1 (1992)</h2>
+                </div>
+                <p class="opening">Windows 3.1 was released in 1992 and served as an upgrade to Windows 3.0. It was the first Windows operating system that became a good publishing platform  as it has TrueType fonts. This operating system required 1MB of RAM, was the first Windows OS to be distributed on a CD-ROM, allowed Microsoft DOS programs to be controlled with a mouse, and introduced Minesweeper.
+                    <br><br>
+                    The major changes of Windows 3.1 from its previous version is its better multimedia and networking support, better error handling, and TrueType font support.
+                    This version has sold three million copies in just two months.
+                </p>
+             </div>
+        </div>
+        
+        <div class="part6">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version95.png" id="icon4">
+                    <h2>Windows 95 (1995)</h2>
+                </div>
+                <p class="opening">Three years later, Windows 95 was released along with its new features. The operating system comes with different 
+                    changes but the most noticeable was the Start Menu and Start button, and also introduced the “plug and play” feature that was 
+                    supposed to find and install new drivers for peripherals automatically. It also focused on multitasking and had a 32-bit environment.
+                    <br><br>
+                    Windows 95 was designed to operate with Windows NT and to have a greater backward compatibility 
+                    with previous drivers and softwares. It also introduced the Internet Explorer yet not installed by default.
+                    
+                </p>
+                <img src="pics-history/Windows95.png" id="v1">
+             </div>
+        </div>
+
+        <div class="part7">
+            <img src="pics-history/Windows98.png" id="v7">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version98.png" id="icon4">
+                    <h2>Windows 98 (1998)</h2>
+                </div>
+                <p class="opening">Windows 98 was released in 1998 as an update to Windows 95. It comes with a bunch 
+                    of new features and improvements such as enhanced support for USB devices, bigger hard drives, 
+                    and as well as user interface changes. <br><br>
+                    Windows 98 has the ability to use larger hard drives and files, thanks to the new file system called FAT32. 
+                    The OS also comes with new programs, such as Internet Explorer 4, Outlook Express, and Windows Media Player.
+                    
+                </p>
+             </div>
+        </div>
+        
+        <div class="part8">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/versionME.png" id="icon8">
+                    <h2>Windows ME (2000)</h2>
+                </div>
+                <p class="opening">Windows ME released in 2000 it was the Millennium edition of the Microsoft Operating system.
+                     It was the final version of Windows designed for home use and based on MS-DOS. Windows Media Player 7, Windows
+                      Movie Maker, Internet Explorer 5.5, and automated system recovery capabilities were among the new features that 
+                      Windows ME brought. <br><br>
+                      
+                      It was known for its errors and installation issues, however.  Windows Me is based on Windows 98.
+                </p>
+                <img src="pics-history/WindowsME.png" id="v8">
+             </div>
+        </div>
+
+        <div class="part9">
+            <img src="pics-history/Windows2000.png" id="v7">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version3.png" id="icon4">
+                    <h2>Windows 2000 (2000)</h2>
+                </div>
+                <p class="opening">Windows 2000 was released in February which was based on Windows NT.  
+                    It was the first operating system to support hibernation and it also comes with Microsoft's
+                     automatic updating. The operating system comes with three different varieties: Professional,
+                      Server, and Advanced Server.
+                    <br><br>
+                    It offered a lot of improvements such as the higher RAM support that goes up to 4GB, stronger
+                     internet integration, eliminated many reboot scenarios, and the Windows FIle Protection.
+                    
+                </p>
+             </div>
+        </div>
+
+        <div class="part10">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version4.png" id="icon8">
+                    <h2>Windows XP (2001)</h2>
+                </div>
+                <p class="opening">Released in 2001 Windows XP, combined the best features of Microsoft's 
+                    enterprise and consumer lines of operating systems. The Start menu, taskbar, Vista wallpaper,
+                     and additional visual effects were all updated in its UI. It also brought it new features 
+                     including integrated CD burning, ClearType, auto-updates, and functional recovery tools. 
+                     Despite its long career and popularity, it was vulnerable to hacking and cyberattacks due to 
+                     security weaknesses, especially with Internet Explorer.It had several versions, including Home
+                     and Professional, and new editions like Media Center, Tablet PC, and Professional x64.
+                </p>
+                <img src="pics-history/WindowsXP.png" id="v10">
+             </div>
+        </div>
+
+        <div class="part11">
+            <img src="pics-history/WindowsVista.png" id="v11">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version5.png" id="icon4">
+                    <h2>Windows Vista (2007)</h2>
+                </div>
+                <p class="opening">On November 8, 2006, Windows Vista went into manufacturing and on January 30, 2007, 
+                    it was made available through the Windows Marketplace. It had a fresh look, with transparent elements
+                     and a focus on search and security. 
+                    <br><br>
+                    However it had a few issues. Users had to approve every app that wanted to make 
+                    changes this led to carelessness with security. 
+                   Windows Vista brought new features like Windows Aero, faster search and multimedia 
+                   tools, and security improvements, but it was also slow on older computers even though it was advertised as "Vista Ready."
+                    
+                </p>
+             </div>
+        </div>
+
+        <div class="part12">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version6.png" id="icon8">
+                    <h2>Windows 7 (2009)</h2>
+                </div>
+                <p class="opening">Windows 7 was released in 2009 as the predecessor to Windows Vista. 
+                    It was regarded as an important improvement since it aimed to fix users complaints 
+                    and problems with Vista.  Windows 7 was quicker, more stable, and easier to use, 
+                    and many people upgraded to it from Windows XP, skipping Vista entirely. Handwriting 
+                    recognition and the ability to snap windows to the sides of the screen for easier 
+                    resizing were two of Windows 7's new features.
+                    Windows 7 has five versions Starter, Home Premium, 
+                    Professional, Enterprise, and Ultimate.
+                </p>
+                <img src="pics-history/Windows7.png" id="v12">
+             </div>
+        </div>
+
+        <div class="part13">
+            <img src="pics-history/Windows8.png" id="v13">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version7.png" id="icon4">
+                    <h2>Windows 8 (2012)</h2>
+                </div>
+                <p class="opening">Windows 8 was released in 2012 and comes with a new interface with the
+                     Start Menu and the Start Button that was replaced with a touch-friendly Start screen. 
+                     The new interface had icons and widgets. Despite its new look, a desktop interface similar
+                      to Windows 7 was still available.  
+
+                    <br><br>
+                    The operating system was faster than previous versions and has support for USB 
+                    3.0 devices. It also introduced Windows Store, which offered universal Windows apps.
+                </p>
+             </div>
+        </div>
+
+        <div class="part14">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version7.png" id="icon9">
+                    <h2>Windows 8.1 (2013)</h2>
+                </div>
+                <p class="opening">The criticisms received from Windows 8, led to the creation of Windows 8.1, a free update released in 2013.
+                     The operating system had returned the 
+                    Start Button back, which was missing from its previous version, and the option to boot directly into the desktop view.
+                </p>
+                <img src="pics-history/Windows8.1.png" id="v14">
+             </div>
+        </div>
+
+        <div class="part15">
+            <img src="pics-history/Windows10.jpg" id="v15">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version8.png" id="icon4">
+                    <h2>Windows 10 (2015)</h2>
+                </div>
+                <p class="opening">Microsoft released Windows 10 in July 2015 as a follow-up to Windows 
+                    8. It returns the Start menu and balances traditional desktop computers 
+                    and touch-based devices like tablets. Universal apps may be installed through the Windows Store
+                     and operate on any Windows device thanks to Windows 10's platform-unifying design. It also 
+                     allows you to convert between tablet, keyboard, and mouse modes on devices.
+                    Windows 10 has 6 variants Windows 10 Home, Windows 10 S, Windows 10 pro, Windows
+                     10 enterprise, Windows 10 Education, and Windows IOT each have unique features.
+                </p>
+             </div>
+        </div>
+
+        <div class="part16">
+            <div class="content">
+                <div class="header">
+                    <img src="Version/version9.png" id="icon9">
+                    <h2>Windows 11 (2021)</h2>
+                </div>
+                <p class="opening">Windows 11, the latest version of Windows OS, was released in late 2021. It comes with new features such as the new look and 
+                    feel of the interface, a new widget system, and the feature that can snap windows into different layouts.
+                     The default applications have been updated with new design settings that offer easier on changing system settings. 
+                     Multiple desktop features were also available, making it a great help for organizing user’s work more efficiently.
+                </p>
+                <img src="pics-history/Windows11.png" id="v16">
+             </div>
+        </div>
+
+        <div class="part17">
+            <div class="content">
+                <h2>Conclusion</h2>
+                <p>Windows has come quite a long journey ever since it was first released in 1985.  
+                    Microsoft offered new features and improvements to every version, in response to user 
+                    feedback and new technologies. From Windows 1 to the latest version which is Windows 11, 
+                    Microsoft’s operating systems have shaped the way we use computers today.</p>
+             </div>
+             <button id="goToDistinction">BACK</button>
+        </div>
+        <script>
+             document.getElementById("goToDistinction").addEventListener("click", function() {
+        // Navigate to the next page (index.html)
+        window.location.href = "index.html";
+    });
+        </script>
+    </body>
+</html>
